@@ -24,7 +24,7 @@ Custom component for information about free courses available on udemy.com for h
 
 # Configuration
 
-Go to your account's [API configuration page](https://www.udemy.com/instructor/account/api/){target="\_blank"}, and manage your client_id and client_secret.
+Go to your account's [API configuration page](https://www.udemy.com/instructor/account/api/), and manage your client_id and client_secret.
 
 ```yaml
 - platform: udemy
