@@ -24,7 +24,7 @@ Custom component for information about free courses available on udemy.com for h
 
 # Configuration
 
-Go to your account's [API configuration page](https://www.udemy.com/instructor/account/api/){:target="\_blank"}, and manage your client_id and client_secret.
+Go to your account's [API configuration page](https://www.udemy.com/instructor/account/api/), and manage your client_id and client_secret.
 
 ```yaml
 - platform: udemy
@@ -32,24 +32,6 @@ Go to your account's [API configuration page](https://www.udemy.com/instructor/a
   client_secret: your-client-secret
   category: your-category
 ```
-
-## Category list:
-
-- Business
-- Design
-- Development
-- Finance & Accounting
-- Health & Fitness
-- IT & Software
-- Lifestyle
-- Marketing
-- Music
-- Office Productivity
-- Personal Development
-- Photography & Video
-- Teaching & Academics
-- Udemy Free Resource Center
-- Vodafone
 
 # Integration with list card
 
@@ -74,6 +56,24 @@ columns:
 ```
 
 ![logo.jpg](example.png)
+
+## Category list:
+
+- Business
+- Design
+- Development
+- Finance & Accounting
+- Health & Fitness
+- IT & Software
+- Lifestyle
+- Marketing
+- Music
+- Office Productivity
+- Personal Development
+- Photography & Video
+- Teaching & Academics
+- Udemy Free Resource Center
+- Vodafone
 
 # Debugging
 
