@@ -51,6 +51,30 @@ Go to your account's [API configuration page](https://www.udemy.com/instructor/a
 - Udemy Free Resource Center
 - Vodafone
 
+# Integration with list card
+
+you can display the list of courses with a [list card](https://github.com/iantrich/list-card), install the in your home asssistant, and in a manual card, add the following configuration:
+
+
+```yaml
+type: 'custom:list-card'
+entity: sensor.udemy_free_courses
+title: Udemy free courses
+feed_attribute: courses
+row_limit: 10
+columns:
+  - title: ''
+    type: image
+    add_link: url
+    field: image
+  - title: Title
+    field: title
+    style:
+      - white-space: nowrap
+```
+
+![logo.jpg](example.png)
+
 # Debugging
 
 ```yaml
