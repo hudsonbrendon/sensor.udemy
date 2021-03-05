@@ -1,0 +1,11 @@
+default_config:
+logger:
+  default: error
+  logs:
+    custom_components.udemy: debug
+
+sensor:
+  platform: udemy
+  client_id: !secret client_id
+  client_secret: !secret client_secret
+  category: Development

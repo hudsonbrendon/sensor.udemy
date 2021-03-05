@@ -1,0 +1,10 @@
+{
+  "domain": "udemy",
+  "name": "Udemy",
+  "documentation": "https://github.com/hudsonbrendon/sensor.udemy",
+  "dependencies": [],
+  "codeowners": [
+    "@hudsonbrendon"
+  ],
+  "requirements": []
+}

@@ -1,2 +1,3 @@
-# sensor.udemy
-Custom component to get free courses from udemy.com for Home Assistant
+![hacs_badge](https://img.shields.io/badge/hacs-custom-orange.svg) [![BuyMeCoffee][buymecoffeebedge]][buymecoffee]
+
+# Udemy Sensor Component
