@@ -70,7 +70,7 @@ class UdemySensor(Entity):
                     self._courses.append(
                         dict(
                             title=course["title"],
-                            url=f"https://udemy.com/{course['url']}",
+                            url=f"https://udemy.com{course['url']}",
                             instructor=course["visible_instructors"][0]["title"],
                             image=course["image_240x135"],
                         )
