@@ -92,7 +92,7 @@ class UdemySensor(Entity):
     @property
     def courses(self):
         """Courses."""
-        return self._courses
+        return [i for n, i in enumerate(self._courses) if i not in self._courses[n + 1 :]]
 
     @property
     def icon(self):
